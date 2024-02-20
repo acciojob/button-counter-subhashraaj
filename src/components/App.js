@@ -4,12 +4,12 @@ import './../styles/App.css';
 import { useState } from "react";
 
 const App = () => {
-  return (
-    const [count, setCount] = useState(0)
-    const counter = () => {
+  const [count, setCount] = useState(0)
+  const counter = () => {
         setCount(count + 1)
         
   }
+  return (
     <div>
         <p>Button clicked {count} times</p>
         <button onClick{counter}>click me</button>
